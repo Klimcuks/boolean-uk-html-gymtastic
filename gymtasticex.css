@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.navbar {
+    background-color:hsl(199, 81%, 35%);
+    padding: 20px;
+}
+.navbar li {
+    display: inline;   
+    color: white;
+    margin: 0px 10px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #fff;
+}
+ .navbar .gymtastic {
+    font-size: x-large;
+    font-weight: bold; 
+    margin-right: 20px;
+ }
+
+ .main {
+     margin: 20px 40px;
+ }
+ .motto {
+     margin-bottom: 20px;
+     color: hsl(199, 81%, 35%);
+
+ }
+.discount {
+     color: hsl(199, 81%, 35%);
+     font-weight: bold;
+ }
+
+ .get-membership {
+     margin-top: 15px;
+     margin-bottom: 25px;
+     padding: 10px 20px;
+     background-color: white;
+     color: orange;
+     border: medium solid orange;
+     border-radius: 10px;
+     font-weight: bold;
+     
+ }
+
+ .social-media {
+    color: hsl(199, 81%, 35%); 
+ }
+
+ .instagram, .facebook, .youtube {   
+     margin: 5px 0px;
+    padding: 10px 30px;
+    background-color: rgb(129, 4, 225);
+    color: white;
+    border: thin solid rgb(96, 4, 167);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: larger;
+    box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.2);
+    margin-right: 15px;
+ }
+
+ .facebook {
+    background-color: rgb(65, 90, 250);
+    border: thin solid rgb(17, 48, 255);
+
+ }
+ .youtube {
+    background-color: red;
+    border: thin solid rgb(187, 0, 0);
+ }
+
+
+.container{
+    margin: 50px 0;
+    display: flex;
+    height: 250px;
+    background-color: rgb(182, 253, 255);
+}
+
+.testimonials p {
+    display: inline-block;
+    margin: 60px;
+    height: 200px;
+    width: 25%;
+}
+.container h3 {
+    font-size: x-large;
+    padding-top: 30px;
+    margin-left: 38%;
+    margin-bottom: -40px;
+    color: rgb(0, 13, 154);
+}
+ .gyms-location {
+     padding-left:20px;
+     list-style-type: none;
+     color: white;
+ }
+
+
+ .footer {
+     background-color:hsl(199, 81%, 35%);
+     padding: 15px;
+     margin-top: -55px;
+ }
+ .footer p,h3 {
+     font-weight: bold;
+     color: white
+ }
+
+
+
+ /* SECOND PAGE */
+ 
+ .who-we-are {
+    background-color:hsl(199, 81%, 35%);
+    color: #fff;
+    height: 150px;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info span {
+    color: hsl(199, 81%, 35%);
+    height: 150px;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info p {
+    width: 60ch;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    border: solid 3px  orange;
+    border-radius: 10px;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.locations p {
+    display: flex;
+    width: 250px;
+    height: 300px;
+    border: solid 5px hsl(199, 81%, 35%);
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: orange;
+    margin: 30px;
+    padding: 0 10px;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
